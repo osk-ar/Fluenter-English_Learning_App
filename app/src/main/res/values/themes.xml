@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Fluenter" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Fluenter" parent="Base.Theme.Fluenter" />
+
+    <!-- Custom Toolbar Theme -->
+    <style name="CustomToolbarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorControlNormal">@color/MainText</item>
+    </style>
+
+    <style name="carbon_CardView" parent="carbon_FrameLayout">
+        <item name="android:background">?attr/carbon_colorBackground</item>
+        <item name="carbon_elevation">@dimen/carbon_elevationCard</item>
+        <item name="carbon_cornerRadius">2dp</item>
+        <item name="android:layout_margin">@dimen/carbon_marginHalf</item>
+    </style>
+
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <carbon.widget.ImageView
+        android:id="@+id/fragmentImage"
+        android:layout_width="0dp"
+        android:layout_height="450dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_weight="1"
+        android:background="@color/CardBackground"
+        android:clipToOutline="true"
+        android:foregroundGravity="center"
+        app:carbon_cornerRadius="16dp"
+        app:carbon_elevation="8dp"
+        app:carbon_elevationShadowColor="@color/CardShadow"
+        app:carbon_stroke="@color/CardStroke"
+        app:carbon_strokeWidth="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <carbon.widget.TextView
+        android:id="@+id/fragmentTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:textAlignment="textStart"
+        android:textColor="@color/MainText"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/fragmentSubTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <carbon.widget.TextView
+        android:id="@+id/fragmentSubTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:textAlignment="textStart"
+        android:textColor="@color/SubText"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

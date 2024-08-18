@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carbon.widget.FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/brick_frame"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_margin="8dp"
+    android:background="@color/CardBackground"
+    android:elevation="8dp"
+    android:padding="8dp"
+    app:carbon_cornerRadius="8dp"
+    app:carbon_elevationShadowColor="@color/CardShadow"
+    app:carbon_stroke="@color/CardStroke"
+    app:carbon_strokeWidth="1dp">
+
+    <carbon.widget.TextView
+        android:id="@+id/item_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="A"
+        android:textColor="@color/ButtonText"
+        android:textSize="34sp" />
+</carbon.widget.FrameLayout>

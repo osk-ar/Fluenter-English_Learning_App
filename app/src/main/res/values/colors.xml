@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Light Colors-->
+    <color name="Background">#F7F7DF</color>
+
+    <color name="CardBackground">#F7F7D7</color>
+    <color name="CardStroke">#64665C</color>
+    <color name="CardShadow">#000000</color>
+
+    <color name="MainText">#2C2C2C</color>
+    <color name="SubText">#B32B2B2B</color>
+
+    <color name="SelectedDot">#9CCD62</color>
+    <color name="UnSelectedDot">#3C3D42</color>
+
+    <color name="ButtonBackground">#9CCD62</color>
+    <color name="SubButtonBackground">#00000000</color>
+    <color name="NotActiveSubButtonText">#403C3D42</color>
+    <color name="ButtonStroke">#9CCD62</color>
+    <color name="ButtonText">#3C3D42</color>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>
